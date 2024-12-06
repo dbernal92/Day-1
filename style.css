@@ -1,0 +1,95 @@
+
+section{
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: left;
+    justify-content: space-around;
+    border-style: solid;
+    background-color:rgba(235, 235, 169, 0.58);
+}
+
+h1{
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(70, 34, 85);
+}
+
+h3{
+    text-align: center;
+}
+
+a:link {
+    color: rgb(170, 68, 101);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:visited {
+    color: rgb(183, 83, 100);
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:hover {
+    color: rgb(221, 255, 247);
+    background-color: transparent;
+    text-decoration: none;
+  }
+
+div{
+    max-width: 600px;
+}
+
+body{
+    text-align: center;
+    background-color: rgba(242, 167, 167);
+}
+
+.material-icons{
+    color: whitesmoke;
+}
+
+ul{
+    display: inline;
+    text-align: left;
+    align-items: center;
+    
+}
+
+ol{
+    display: inline;
+    text-align: left;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.facts{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.morefacts{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.picture{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    max-height: 400px;
+    margin-top: 20px;
+}
